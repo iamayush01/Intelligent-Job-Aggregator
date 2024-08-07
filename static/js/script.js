@@ -6,9 +6,9 @@ document.getElementById('scrape-form').addEventListener('submit', function(e) {
     fetch('/scrape', {
         method: 'POST',
         headers: {
-            'Content-Type': 'application/json'
+            'Content-Type': 'application/x-www-form-urlencoded'
         },
-        body: JSON.stringify({ url: url })
+        body: new URLSearchParams({ url: url })
     })
     .then(response => response.json())
     .then(data => {
