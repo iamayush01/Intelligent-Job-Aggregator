@@ -9,12 +9,8 @@
 <body>
     <div class="container">
         <h1>Intelligent Job Aggregator</h1>
-        <form id="scrape-form">
-            <label for="url">Enter Job Listing URL:</label>
-            <input type="text" id="url" name="url" required>
-            <button type="submit">Scrape Jobs</button>
-        </form>
-        <div id="results"></div>
+        <button id="scrape-button">Scrape Jobs</button>
+        <div id="results" class="results-container"></div>
     </div>
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
 </body>

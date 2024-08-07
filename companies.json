@@ -1,0 +1,14 @@
+{
+    "companies": {
+      "Microsoft": {
+        "url": "https://jobs.careers.microsoft.com/global/en/search?q=Engineering&p=Software%20Engineering&p=Research%2C%20Applied%2C%20%26%20Data%20Sciences&exp=Students%20and%20graduates&el=Bachelors&l=en_us&pg=1&pgSz=20&o=Relevance&flt=true",
+        "job_class_name": "ms-List-cell",
+        "title_selector": "h2.MZGzlrn8gfgSs8TZHhv2"
+      },
+      "Google": {
+        "url": "https://www.google.com/about/careers/applications/jobs/results/?category=DATA_CENTER_OPERATIONS&category=DEVELOPER_RELATIONS&category=HARDWARE_ENGINEERING&category=INFORMATION_TECHNOLOGY&category=MANUFACTURING_SUPPLY_CHAIN&category=NETWORK_ENGINEERING&category=PRODUCT_MANAGEMENT&category=PROGRAM_MANAGEMENT&category=SOFTWARE_ENGINEERING&category=TECHNICAL_INFRASTRUCTURE_ENGINEERING&category=TECHNICAL_SOLUTIONS&category=TECHNICAL_WRITING&category=USER_EXPERIENCE&jex=ENTRY_LEVEL&target_level=INTERN_AND_APPRENTICE&skills=Computer%20Engineering",
+        "job_class_name": "Ln1EL",
+        "title_selector": "h3.QJPWVe"
+      }
+    }
+}
